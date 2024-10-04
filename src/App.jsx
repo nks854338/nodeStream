@@ -36,11 +36,8 @@ const App = () => {
           <div className="button">
             {/* Each button has an onClick event to update the input field */}
             <div className="btn" onClick={handleButtonClick}>MusicApp</div>
-            <div className="btn" onClick={handleButtonClick}>fileHandling</div>
-            <div className="btn" onClick={handleButtonClick}>newsWebsite</div>
             <div className="btn" onClick={handleButtonClick}>nodejs</div>
             <div className="btn" onClick={handleButtonClick}>multer</div>
-            <div className="btn" onClick={handleButtonClick}>khabadiconnect</div>
           </div>
         </div>
         <div className="bottom">
