@@ -1,16 +1,14 @@
 import React, { useState } from "react";
 
 const App = () => {
-  const [videoName, setVideoName] = useState(""); // Track the input value
+  const [videoName, setVideoName] = useState(""); 
 
-  // Handle input change from typing in the input box
   const handleInputChange = (e) => {
-    setVideoName(e.target.value); // Update video name from the input
+    setVideoName(e.target.value); 
   };
 
-  // Handle click event on any of the buttons
   const handleButtonClick = (e) => {
-    setVideoName(e.target.innerText); // Set input value to the text inside the clicked button
+    setVideoName(e.target.innerText); 
   };
 
   return (
@@ -18,7 +16,6 @@ const App = () => {
       <div className="container">
         <h1>Video Streaming App</h1>
         <div className="top">
-          {/* Input Form */}
           <form>
             <div className="formTop">Video Name:</div>
             <div className="formBottom">
@@ -46,7 +43,7 @@ const App = () => {
               <h3>Now Streaming: {videoName}.mp4</h3>
               <div className="video">
                 <video
-                  src={`http://localhost:5000/video/${videoName}`}
+                  src={`https://node-stream-backend.vercel.app/video/${videoName}`}
                   controls
                   width="600"
                 >
