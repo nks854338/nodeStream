@@ -8,7 +8,7 @@ const App = () => {
   };
 
   const handleButtonClick = (e) => {
-    setVideoName(e.target.innerText); 
+    setVideoName(e.target.innerText);
   };
 
   return (
@@ -31,7 +31,6 @@ const App = () => {
         </div>
         <div className="btns">
           <div className="button">
-            {/* Each button has an onClick event to update the input field */}
             <div className="btn" onClick={handleButtonClick}>MusicApp</div>
             <div className="btn" onClick={handleButtonClick}>nodejs</div>
             <div className="btn" onClick={handleButtonClick}>multer</div>
@@ -43,7 +42,7 @@ const App = () => {
               <h3>Now Streaming: {videoName}.mp4</h3>
               <div className="video">
                 <video
-                  src={`https://node-stream-backend.vercel.app/video/${videoName}`}
+                  src={`http://localhost:5000/video/${videoName}`}
                   controls
                   width="600"
                 >
