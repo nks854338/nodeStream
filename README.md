@@ -11,7 +11,8 @@ This project demonstrates the use of Node.js streams for video streaming using a
 
 ## Demo
 
-- [Frontend Link](https://node-stream-gamma.vercel.app/) 
+- [Video link](https://drive.google.com/file/d/1RPN3qLitfJHk_wSe0LZQwNo_TjIKfXYE/view?usp=sharing) 
+- [Frontend Link](https://node-stream-gamma.vercel.app/)
 - [Backend Link](https://node-stream-backend.vercel.app/) 
 - [Frontend Repository Link](https://github.com/nks854338/nodeStream) 
 - [Backend Repository Link](https://github.com/nks854338/nodeStreamBackend)
