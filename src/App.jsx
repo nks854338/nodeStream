@@ -41,7 +41,7 @@ const App = () => {
               <h3>Now Streaming: {videoName}.mp4</h3>
               <div className="video">
                 <video
-                  src={`https://node-stream-backend.vercel.app/${videoName}`}
+                  src={`https://node-stream-backend.vercel.app/video/${videoName}`}
                   controls
                   width="600"
                 >
