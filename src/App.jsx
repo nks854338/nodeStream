@@ -24,16 +24,15 @@ const App = () => {
                 id="videoName"
                 value={videoName}
                 onChange={handleInputChange}
-                placeholder="Enter video index between 0-2"
+                placeholder="Enter video name"
               />
             </div>
           </form>
         </div>
         <div className="btns">
           <div className="button">
-            <div className="btn" onClick={handleButtonClick}>0</div>
-            <div className="btn" onClick={handleButtonClick}>1</div>
-            <div className="btn" onClick={handleButtonClick}>2</div>
+            <div className="btn" onClick={handleButtonClick}>nodeStream</div>
+            <div className="btn" onClick={handleButtonClick}>multer</div>
           </div>
         </div>
         <div className="bottom">
@@ -42,7 +41,7 @@ const App = () => {
               <h3>Now Streaming: {videoName}.mp4</h3>
               <div className="video">
                 <video
-                  src={`https://node-stream-backend.vercel.app/video/${videoName}`}
+                  src={`https://node-stream-backend.vercel.app/${videoName}`}
                   controls
                   width="600"
                 >
